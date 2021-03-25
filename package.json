@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "a simple setup of node and express with typescript",
   "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
   "repository": "https://github.com/KevinApodaca/ts-setup.git",
   "author": "Kevin Apodaca <kevin.apodaca7@gmail.com>",
   "license": "MIT",
